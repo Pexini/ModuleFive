@@ -16,7 +16,6 @@ public class divisorsByN {
             if (n % i == 0) {
                 System.out.println("Дедители " + i);
 
-
             }
         }
     }
