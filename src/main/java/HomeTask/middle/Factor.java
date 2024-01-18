@@ -13,7 +13,7 @@ public class Factor {
             return;
         } else {
             long factorial = 1;
-            for (int i = 2; i <= num; i++) {
+            for (int i = 1; i <= num; i++) {
                 factorial *= i;
             }
             System.out.println("Factorial " + factorial);
