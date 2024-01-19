@@ -11,7 +11,7 @@ public class Fibonachi {
 
         int a = 0;
         int b = 1;
-
+        System.out.println( "Ваш ряд чисел Фибоначчи : ");
         for (int i = 0; i < n; i++) {
 
             int next = a + b;
