@@ -8,7 +8,7 @@ public class multiplicatioTable {
 
         int userNum = 0;
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 15; i++) {
             int a = Math.abs(new Random().nextInt()) % 9 + 1;
             int b = Math.abs(new Random().nextInt()) % 9 + 1;
             int c = a * b;
