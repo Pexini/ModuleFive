@@ -7,8 +7,8 @@ public class MultiplicatioTable {
     public static void main(String[] args) {
 
         int userNum = 0;
-        int patternsRight = 0;
-        int patternsWrong = 0;
+        int answerRight = 0;
+        int answerWrong = 0;
 
         for (int i = 0; i < 15; i++) {
             int a = Math.abs(new Random().nextInt(9)) + 1;
@@ -23,14 +23,14 @@ public class MultiplicatioTable {
 
 
             if (userNum == c) {
-                patternsRight++;
+                answerRight++;
                // System.out.println("Пример № " + patterns + " Правильно : " + c);
             } else {
-                patternsWrong++;
+                answerWrong++;
              //   System.out.println("Пример № " + patterns + " Hеправильно: " + a + " умножить на " + b + " = " + c);
             }
-            if ((patternsRight + patternsWrong) % 5 == 0) {
-                System.out.println( "Ваш результат : " + " Правильные ответы = " +  patternsRight + "; Неправильные ответы =  " + patternsWrong );
+            if ((answerRight + answerWrong) % 5 == 0) {
+                System.out.println( "Ваш результат : " + " Правильные ответы = " +  answerRight + "; Неправильные ответы =  " + answerWrong );
                 break;
             }
 
