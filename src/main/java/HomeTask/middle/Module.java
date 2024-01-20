@@ -1,6 +1,6 @@
 package HomeTask.middle;
 
-public class module {
+public class Module {
     public static void main(String[] args) {
         int n = 3;
         double[] array = {3.2, -1.3, 7.3};

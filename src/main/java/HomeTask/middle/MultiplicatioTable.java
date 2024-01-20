@@ -3,7 +3,7 @@ package HomeTask.middle;
 import java.util.Random;
 import java.util.Scanner;
 
-public class multiplicatioTable {
+public class MultiplicatioTable {
     public static void main(String[] args) {
 
         int userNum = 0;

@@ -2,7 +2,7 @@ package HomeTask.middle;
 
 import java.util.Scanner;
 
-public class divisorsByN {
+public class DivisorsByN {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите значение N: ");
