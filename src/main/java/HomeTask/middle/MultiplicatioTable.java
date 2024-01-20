@@ -10,13 +10,13 @@ public class MultiplicatioTable {
         int answerRight = 0;
         int answerWrong = 0;
 
-        for (int i = 0; i < 15; i++) {
+        for (int i = 1; i < 15; i++) {
             int a = Math.abs(new Random().nextInt(9)) + 1;
             int b = Math.abs(new Random().nextInt(9)) + 1;
             int c = a * b;
 
-
-            System.out.println(" Ответь на вопрос сколько будет " + a + " * " + b + " ?");
+            System.out.println( );
+            System.out.println(" Решите пример № " + i + "   " + a + " * " + b + " ?");
 
             Scanner scanner = new Scanner(System.in);
             userNum = scanner.nextInt();
@@ -24,13 +24,14 @@ public class MultiplicatioTable {
 
             if (userNum == c) {
                 answerRight++;
-               // System.out.println("Пример № " + patterns + " Правильно : " + c);
+                System.out.println("Пример № " + i + "\n Правильно : " + c);
             } else {
                 answerWrong++;
-             //   System.out.println("Пример № " + patterns + " Hеправильно: " + a + " умножить на " + b + " = " + c);
+                System.out.println("Пример № " + i + " \n Hеправильно: " + a + " умножить на " + b + " = " + c);
+
             }
             if ((answerRight + answerWrong) % 5 == 0) {
-                System.out.println( "Ваш результат : " + " Правильные ответы = " +  answerRight + "; Неправильные ответы =  " + answerWrong );
+                System.out.println(" \n Правильные ответы = " + answerRight + "; Неправильные ответы =  " + answerWrong);
                 break;
             }
 
