@@ -17,12 +17,10 @@ public class Fibonachi {
 
         int a = 0;
         int b = 1;
-        System.out.println("Ваш ряд чисел Фибоначчи : ");
+        System.out.println("Ваш ряд чисел Фибоначчи : " );
         System.out.print(a + " " + b);
 
         for (int i = 2; i < n; i++) {
-
-
             int next = a + b;
             a = b;
             b = next;
