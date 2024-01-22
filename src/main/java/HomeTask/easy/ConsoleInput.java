@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ConsoleInput {
     public static void main(String[] args) {
+
+
         System.out.println("Введите число и степень");
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
