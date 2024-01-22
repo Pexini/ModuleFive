@@ -52,6 +52,7 @@ public class MultiplicatioTable {
                     }
                     if (userNum == newC)
                         extraAnswer++;
+                    answerRight++;
                     System.out.println("Верно, возвразаемся к примерам");
                     System.out.println();
 
