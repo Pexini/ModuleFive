@@ -13,7 +13,7 @@ public class MultiplicatioTable {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 1; i < 5; i++) {
             int a = Math.abs(random.nextInt(9)) + 1;
             int b = Math.abs(random.nextInt(9)) + 1;
             int c = a * b;
@@ -39,13 +39,14 @@ public class MultiplicatioTable {
                     int newA = Math.abs(random.nextInt(9)) + 1;
                     int newB = Math.abs(random.nextInt(9)) + 1;
                     int newC = newA * newB;
-                    extraAnswer++;
+
 
                     System.out.println("Дополнительный вопрос: " + newA + " * " + newB + " ?");
                     userNum = scanner.nextInt();
 
                     while (userNum != newC) {
                         extraAnswer++;
+                        answerWrong++;
                         System.out.println("Дополнительный вопрос: " + newA + " * " + newB + " ?");
                         userNum = scanner.nextInt();
                     }
